@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+
+    <style>
+        body {
+            font-size: 10px;
+        }
+        
+        article {
+            background-color: red;
+            height: auto;
+            width: 100%;
+        }
+        
+        article::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        
+        .cards {
+            background-color: blue;
+            width: 48%;
+            height: 120px;
+            float: left;
+            margin: 1%;
+        }
+        
+        p {
+            font-size: 2rem;
+        }
+        
+        @media screen and (max-width:800px) {
+            .cards {
+                width: 98%;
+                background-color: red;
+                display: block;
+                font-size: 10px;
+            }
+            article {
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <article>
+        <div class="cards">
+            <p>Teste</p>
+        </div>
+        <div class="cards"></div>
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+body {
+    font-family: sans-serif;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.maxwidth {
+    margin: 0 auto;
+}
+
+.clearfix {
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    background-color: #713a84;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover {
+    background-color: #7c3792;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1.2em 0;
+}
+
+.prop {
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.topo-legal {
+    padding: 0;
+}
+
+.top-conteudo {
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #713a84;
+    padding-bottom: 2px;
+}
+
+.sub-title {
+    color: #7c3792;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+section {
+    padding: 15px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    border: 1px #58c4c4 solid;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    background-color: #58c4c4;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #37a0a0;
+}
+
+.cards h3 {
+    text-transform: uppercase;
+    color: #652e78;
+}
+
+.cards {
+    line-height: 1.5em;
+}
+
+.cards2 {
+    padding: 10px;
+    text-align: left;
+}
+
+.cards2 h3 {
+    color: #713a84;
+    font-weight: normal;
+}
+
+.cards2 h3 {
+    text-align: left;
+}
+
+.produtos {
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+}
+
+.descricao {
+    text-align: left;
+    padding: 15;
+    box-sizing: border-box;
+}
+
+.title-cards {
+    font-weight: normal;
+    text-align: left;
+}
+
+.content-cards {
+    font-weight: normal;
+    text-align: left;
+}
+
+.cards .button {
+    float: none;
+}
+
+footer .rodape:first-child {
+    background-color: #303d4c;
+    text-align: center;
+}
+
+footer .rodape:first-child ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+footer .rodape:first-child ul li a span {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #25303e;
+    text-align: center;
+}
+
+footer .rodape:first-child+.rodape p:first-child {
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
+}
+
+footer .rodape:first-child+.rodape p:last-child {
+    margin: 0;
+    padding-bottom: 30px;
+    color: gray;
+    line-height: 1.5;
+}
+
+@media screen and (min-width:780px) {
+    .topo-logo {
+        float: left;
+        margin: .4em .4em;
+    }
+    nav {
+        float: right;
+        text-align: right;
+        background-color: white;
+    }
+    nav ul {
+        display: inline-block;
+        margin-right: 0.35em;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-right: 1em;
+    }
+    nav ul li a {
+        color: #713a84;
+        padding: 1em;
+    }
+    nav ul li:hover {
+        background-color: #ccc;
+    }
+    .topo-img {
+        background-color: #652e78;
+    }
+    .prop {
+        padding: 15px;
+        overflow: auto;
+        visibility: visible;
+        width: 5em;
+        height: 5em;
+        display: block;
+        margin: auto;
+    }
+    .top-conteudo {
+        color: white;
+    }
+    .sub-title {
+        color: white;
+    }
+    .cards {
+        float: left;
+        width: 46%;
+        padding: 3% 2%;
+    }
+    .title-cards {
+        text-align: center;
+        font-weight: normal;
+    }
+    .content-cards {
+        text-align: center;
+        font-weight: normal;
+    }
+    .cards2 {
+        text-align: right;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    .topo-legal {
+        background-image: url(../images/bg_topo_1198x670.jpg);
+        height: 38em;
+        position: relative;
+    }
+    .maxwidth2 {
+        position: absolute;
+        bottom: 2em;
+    }
+    .cards {
+        width: 44%;
+        margin: 0 1.0%;
+    }
+}
+
+@media screen and (min-width: 74em) {
+    .topo-legal {
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        height: 49em;
+        background-position: center top;
+        background-size: cover;
+    }
+    .maxwidth2 {
+        bottom: 10em;
+        left: 50%;
+        transform: translate(-50%)
+    }
+    .cards {
+        width: 19%;
+    }
+    .produtos {
+        padding: 0 8em;
+    }
+    .descricao {
+        padding: 0 8em;
+    }
+    .cards2 {
+        float: left;
+        width: 44%;
+        margin: 0 2%;
+        text-align: left;
+    }
+    .cards2 .title-cards {
+        text-align: left;
+    }
+    .cards2 .content-cards {
+        text-align: left;
+    }
+}
