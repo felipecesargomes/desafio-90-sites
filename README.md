@@ -11,7 +11,7 @@ Criei esse repositório com o intuito de lançar um desafio, que é criar 90 sit
 Site do curso<br/>
 ![image](https://user-images.githubusercontent.com/58090526/109677236-3b782480-7b58-11eb-9b91-f25278985cbc.png)
 
-<b>Minha réplica</b><br/>
+<b><em>Minha réplica</em></b><br/>
 
 ![image](https://user-images.githubusercontent.com/58090526/109717682-26fe5100-7b85-11eb-83ac-459035f046d0.png)
 
