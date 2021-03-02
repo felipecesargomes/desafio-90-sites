@@ -15,3 +15,5 @@ Minha réplica<br/>
 
 ![image](https://user-images.githubusercontent.com/58090526/109717682-26fe5100-7b85-11eb-83ac-459035f046d0.png)
 
+<b>Responsividade:</b> Nesse site a responsividade foi criada para as seguintes telas, width - 780px, width de 0 à 780px, width 780px até 1184px, width 1184 para cima.
+<b>Posicionamento dos cards</b>: Foi utilizado float
