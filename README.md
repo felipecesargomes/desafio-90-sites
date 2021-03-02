@@ -13,5 +13,5 @@ Site do curso<br/>
 
 Minha réplica<br/>
 
-![image](https://user-images.githubusercontent.com/58090526/109677685-aaee1400-7b58-11eb-98bc-87facafd07ef.png)
+![image](https://user-images.githubusercontent.com/58090526/109717682-26fe5100-7b85-11eb-83ac-459035f046d0.png)
 
