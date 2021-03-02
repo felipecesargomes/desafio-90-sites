@@ -8,7 +8,7 @@ Criei esse repositório com o intuito de lançar um desafio, que é criar 90 sit
 
 ### Desafio 1 - Curso do Daniel Tapias Morales
 
-Site do curso<br/>
+<b><em>Site do curso</em></b><br/>
 ![image](https://user-images.githubusercontent.com/58090526/109677236-3b782480-7b58-11eb-9b91-f25278985cbc.png)
 
 <b><em>Minha réplica</em></b><br/>
