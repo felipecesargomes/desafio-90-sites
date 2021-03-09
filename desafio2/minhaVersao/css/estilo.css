@@ -1,0 +1,20 @@
+.siteinteiro {
+    display: block;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.siteinteiro::after {
+    content: "";
+    opacity: 0.08;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
