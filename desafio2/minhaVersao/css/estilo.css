@@ -1,3 +1,7 @@
+html {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
 .siteinteiro {
     display: block;
     position: relative;
@@ -17,4 +21,68 @@
     z-index: -1;
     background-image: url("../images/bg.jpg");
     background-size: cover;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.cabecalho {
+    height: 44px;
+    background-color: #111111;
+    color: white;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 0 4px 0;
+}
+
+.menuzin {
+    padding: 0px 0;
+    float: right;
+    width: auto;
+    height: 30px;
+    top: 0;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#logo {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.menuzin:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.icone_menu {
+    color: white;
+    color: inherit;
+    float: left;
+}
+
+#menu {
+    float: right;
+    padding: 3px 0;
+}
+
+#menu a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    color: inherit
+}
+
+#menu a:hover {
+    color: inherit;
+}
+
+.cabecalho div:first-child {
+    float: left;
+    width: auto;
 }
