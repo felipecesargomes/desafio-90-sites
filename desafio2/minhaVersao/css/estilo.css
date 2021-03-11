@@ -1,5 +1,5 @@
 html {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 .siteinteiro {
@@ -85,4 +85,69 @@ html {
 .cabecalho div:first-child {
     float: left;
     width: auto;
+}
+
+figure {
+    min-width: 600px;
+    margin: 0;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.topo-pagina {
+    position: relative;
+    background-image: url(../images/banner.mp4);
+}
+
+.topo-pagina-cabecalho {
+    text-align: center;
+    font-weight: normal;
+    z-index: 90;
+}
+
+.topo-pagina-cabecalho h1 {
+    padding: 2.2em 0 0 0;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+.topo-pagina p {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.400em;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.3em;
+}
+
+.topo-pagina p>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.topo-pagina p>a:hover {
+    color: white;
+}
+
+.topo-pagina:after {
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.topo-pagina-cabecalho {
+    position: absolute;
+    color: white;
 }
